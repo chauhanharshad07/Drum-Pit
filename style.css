@@ -1,0 +1,70 @@
+*{
+    font-family: "gilroy";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white ;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+    place-content: center;
+    text-align: center;
+    display: grid;
+}
+h1{
+    color: aqua;
+    transition: 0.25s;
+    margin: auto;
+}
+h1:hover{
+    color:white;
+}
+.fa-drum{
+    transform: scale(1.15);
+    margin: auto 0.5rem;
+}
+#drumkit{
+    margin: 1.5rem auto;
+    color: black;
+    text-align: center;
+}
+h2{
+    margin: auto;
+}
+a,
+a:visited{
+    color: yellow;
+}
+i{
+    font-weight: bold;
+    color: white;
+}
+i:hover{
+    color: aqua;
+}
+.element{
+    height: 12vw;
+    width: 12vw;
+    display: inline-grid;
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    /* overflow: hidden; */
+    place-content: center;
+    box-shadow: 5px 5px 10px aqua,-5px -5px 10px white;
+    cursor: pointer;
+}
+.active{
+    transition: 0.15s;
+    transform: scale(1.05);
+    background-image: linear-gradient(to right bottom   , #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+#footnote{
+    margin:0.5rem auto;
+    text-transform: capitalize;
+}
+#footnote h3{
+    font-weight: 500;
+}
